@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="img/turing.ico">
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <title>Turing computación</title>
+    </head>
+    <body class="grid template-areas-productos">
+
+    <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-almost-dark sticky-top">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand ms-4  ms-lg-1" href="index.html">
+                        <img src="img/logo-turing.png" class="mt-1" alt="logo turing" id="logo">
+                    </a>
+                    <ul class="navbar-nav ms-4 me-5 mb-2 mb-lg-0">
+                        <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Productos
+                            </a> 
+                            <ul id="menu" class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                    
+                            </ul>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="cart.html">Mi carrito</a>
+                        </li>
+                    </ul>
+                    <!-- <form class="d-flex">
+                        <input class="form-control me-2" id="buscador" type="search" placeholder="Eso que querés, buscalo acá" aria-label="Search">
+                        <button class="btn btn-outline-success" id="boton-buscar" type="submit">Search</button>
+                    </form> -->
+                </div>
+                <a href="cart.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="cart-icon" fill="white" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M96 0C107.5 0 117.4 8.19 119.6 19.51L121.1 32H541.8C562.1 32 578.3 52.25 572.6 72.66L518.6 264.7C514.7 278.5 502.1 288 487.8 288H170.7L179.9 336H488C501.3 336 512 346.7 512 360C512 373.3 501.3 384 488 384H159.1C148.5 384 138.6 375.8 136.4 364.5L76.14 48H24C10.75 48 0 37.25 0 24C0 10.75 10.75 0 24 0H96zM128 464C128 437.5 149.5 416 176 416C202.5 416 224 437.5 224 464C224 490.5 202.5 512 176 512C149.5 512 128 490.5 128 464zM512 464C512 490.5 490.5 512 464 512C437.5 512 416 490.5 416 464C416 437.5 437.5 416 464 416C490.5 416 512 437.5 512 464z"/></svg>
+                </a>            
+            </div>
+        </nav>
+    </header>
+    
+    
+        
+
+    <main class="container-fluid px-0 bg-almost-light">
+        <div class="row">
+            <div id="resultado" class="py-5 d-flex justify-content-center">
+                
+            </div>
+            
+            <section class="conteiner-fluid col-12 col-lg-8 flex-column">
+                <div id="producto" class="row">
+
+                
+                </div> 
+                
+            </section>
+
+            <aside class=" col-12 col-lg-4 d-flex flex-column justify-content-center">
+                    <p class="fs-2 fw-bold">
+                        Precio unitario:
+                    </p>
+                    <p id="precio" class="fs-2 fw-bold">
+                        
+                    </p>
+                
+                    <!-- solo puede existir un boton submit por Formulario -->
+                    <button id="btnComprar" type="button" class="btn btn-primary btnComprar">Comprar</button>
+                    <div id="input-spinner" title="Cantidad">
+                        <input  id="cantidadIngresada" class="buttons-only" type="number" value="1" min="0" max="">
+                    <div>           
+            </aside>
+
+            
+            
+            </div>
+            <div class="relleno">
+
+            </div> 
+    </main>
+    
+
+
+
+
+    
+    <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="module" src="./js/main.js"></script>
+    <script src="js/lib-input-spinner/bootstrap-input-spinner.js"></script>
+    
+    
+    </body>
+</html>

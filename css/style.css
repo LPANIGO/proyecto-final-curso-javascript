@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+
+*{
+    font-family: 'Dosis', sans-serif;
+    /* font-size: 1rem; */
+    /*font-weight: 500; */
+}
+
+
+/* SELECTORES DE CLASES */
+
+.bg-almost-light{
+    background-color: #cbd4ce;
+}
+
+.bg-almost-dark {
+    background-color: #141414;
+}
+
+.bg-my-grey {
+	background: #2B3034;
+    
+    /* background: linear-gradient(to top, #003434, #006A6B); */
+}
+
+.btnComprar{
+    width: 70%;
+}
+
+.w-10vw {
+    width: 10vw;
+}
+
+.product-box{
+    border:solid 1px rgb(160, 160, 160) !important; 
+    /* border-radius: 10px; */
+    transition: transform 0.6s;
+}
+
+.product-box:hover{
+    border: solid 1px #85ca05 !important;
+    /* border-radius: 10px; */
+    /* transform: scale(1.1); */
+	cursor: pointer;
+	transition: transform 0.6s;
+}
+
+.relleno {
+    height: 10vh;
+}
+
+
+/* SELECTORES DE ID */
+
+#link-cart {
+    color: white;
+}
+
+#btnComprar {
+    background-color: #85ca05;
+    color: black;
+}
+
+#btnMarcas {
+    background-color: #85ca05;
+}
+
+#logo {
+    height: 10vh;
+}
+
+#cart-icon{
+    height: 4vh;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+} 
+
+#nav-marcas{
+    background-color: #2B3034;
+    padding: 1rem 2rem;
+    color: white;
+}
+
+    #nav-marcas h2{
+        font-size: 1.4rem;
+    }
+    #nav-marcas ul{
+        list-style: none;
+        /* margin: 20px; */
+    }
+
+        #nav-marcas ul li{
+            padding: 2px;
+        }
+
+            #nav-marcas ul li a{
+                font-size: 1rem;
+                text-decoration: none;
+                color: white;
+                
+            }
+
+#input-spinner{
+    width: 70%;
+}
+
+#btnFinalizarCompra {
+    background-color: #85ca05;
+    text-align: center;
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (min-width: 768px){
+    #input-spinner{
+        width: 50%;
+    }
+
+    .btnComprar{
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    #cart-icon{
+        height: 4vh;
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    } 
+
+    #input-spinner{
+        width: 80%;
+    }
+
+    #buscador{
+        width: 35vw;
+    }
+
+    .btnComprar{
+        width: 80%;
+    }
+}
+
+
+
+/* GRID PRODUCTOS.HTML */
+/* 
+.grid{
+    width:100%;
+    display: grid;
+}
+
+.template-areas-productos{
+    grid-template-columns: repeat(1, 0.55fr) repeat(2, 1fr);
+    grid-template-areas: "h h h" "nav2 main main" "pie pie pie";
+}
+
+#header{
+    grid-area: h;
+}
+
+#nav-productos{
+    grid-area: nav2;
+    background-color: #006A6B;
+    display: flex;
+    flex-direction: column;
+    padding: 8rem 2rem;
+    color: white;
+    font-size: 1rem;
+}
+
+    #nav-productos ul{
+        list-style: none;
+        margin: 20px;
+    }
+
+        #nav-productos ul li{
+            padding: 10px;
+        }
+
+            #nav-productos ul li a{
+                color: white;
+                font-size: 1rem;
+                text-decoration: none;
+            }
+
+#main{
+    grid-area: main;
+}
+
+#footer{
+    grid-area: pie;
+} */
+
+/* MEDIA QUERY */
+/* 
+@media only screen and (min-width: 768px){
+
+    *{
+        font-family: 'Lato', sans-serif;
+        font-size: 1rem;
+        font-weight: 500; 
+    }
+
+    #buscador{
+		width: 20vw;
+	}    
+    #cart-icon{
+		height: 4vh;
+	}
+    #logo {
+        height: 10vh;
+    }
+    #header{
+        font-family: 'Lato', sans-serif;
+        font-size: 1rem;
+    }
+}
+@media only screen and (min-width: 1550px){
+    *{
+        font-family: 'Lato', sans-serif;
+        font-size: 1.2rem;
+    }
+    #buscador{
+		width: 25vw;
+	}
+    #header{
+        font-family: 'Lato', sans-serif;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1950px){
+    *{
+        font-family: 'Lato', sans-serif;
+        font-size: 1.8rem;
+    }
+    #buscador{
+		width: 25vw;
+	}
+    #cart-icon{
+		height: 6vh;
+	}
+    #header{
+        font-family: 'Lato', sans-serif;
+        font-size: 1rem;
+    }
+    
+} */
+
+
